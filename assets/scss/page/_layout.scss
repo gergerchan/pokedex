@@ -1,0 +1,35 @@
+.pkmn-header{
+  display: flex;
+  justify-content: center;
+  border-bottom:2px solid $white;
+  background-color:  $primary;
+  a,a:hover{
+    color: $white;
+    text-decoration: none;
+  }
+  h1{
+    margin: 0px;
+  }
+  border-bottom-left-radius: 10em;
+  border-bottom-right-radius: 10em;
+}
+
+.pkmn-footer{
+  cursor: pointer;
+  color:$primary;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-top:2px solid $primary;
+  &-active{
+    background-color: $primary;
+    color: $white;
+    cursor: pointer;
+    text-decoration: none;
+    border-top:2px solid $primary;
+  }
+  &:hover{
+    border-top:2px solid $primaryHover;
+    background-color: $primaryHover;
+    color: $white;
+  }
+}

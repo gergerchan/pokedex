@@ -1,0 +1,111 @@
+.normal {
+  background-color: $normal;
+}
+.fire {
+  background-color: $fire;
+}
+.water {
+  background-color: $water;
+}
+.electric {
+  background-color: $electric;
+}
+.grass {
+  background-color: $grass;
+}
+.ice {
+  background-color: $ice;
+}
+.fighting {
+  background-color: $fighting;
+}
+.poison {
+  background-color: $poison;
+}
+.ground {
+  background-color: $ground;
+}
+.flying {
+  background-color: $flying;
+}
+.psychic {
+  background-color: $psychic;
+}
+.bug {
+  background-color: $bug;
+}
+.rock {
+  background-color: $rock;
+}
+.ghost {
+  background-color: $ghost;
+}
+.dragon {
+  background-color: $dragon;
+}
+.dark {
+  background-color: $dark;
+}
+.steel {
+  background-color: $steel;
+}
+.fairy {
+  background-color: $fairy;
+}
+
+.pkmn-card {
+  border-radius: 10px;
+  &-title {
+    text-transform: capitalize;
+    text-align: center;
+    &__name {
+      padding: 5px 0px;
+      border-radius: 20px;
+      background-color: $white;
+      text-transform: capitalize;
+      text-align: center;
+      font-weight: 700;
+    }
+    &__catched {
+      padding: 5px 0px;
+      border-radius: 20px;
+      background-color: $white;
+      text-align: center;
+      font-weight: 700;
+    }
+    &__type {
+      padding: 5px 0px;
+      border-radius: 20px;
+      text-transform: capitalize;
+      text-align: center;
+      color: $white;
+      font-weight: 700;
+      border: 1px solid $white;
+    }
+    &__owned {
+      text-transform: capitalize;
+      text-align: center;
+      color: $white;
+    }
+  }
+  &-background {
+    padding: 1px;
+    border-radius: 30px;
+    background-color: $white;
+  }
+  &-detail {
+    &__link {
+      text-transform: capitalize;
+      text-align: center;
+      background-color: $primary;
+      border-radius: 30px;
+      text-decoration: none;
+      color: $white;
+      width: 100%;
+    }
+    &__link:hover{
+      background-color: $primaryHover;
+      color:$white
+    }
+  }
+}
